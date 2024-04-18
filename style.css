@@ -1,0 +1,98 @@
+body {
+     background-color: black;
+    background-image: linear-gradient( to right, rgb(210, 200, 11), transparent, blue );
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+     width: 100%;
+     background-position: center;
+     display: flex;
+     justify-content: space-around;
+}
+
+.title {
+     color: darkblue;
+     font-size: 23px;
+     
+}
+
+header {
+     display:inline-block;
+     margin-top:10px;
+     margin-left: 5px;
+     display: flex;
+     align-items: center;
+}
+
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: space-around;
+     color: black;
+     font-size: 20px;
+     width: 800px;
+     margin-top: 20px;
+   }
+
+a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     background-color:rgb(208, 255, 0); 
+     border-radius: 30px;
+     margin-top: 50px;
+     align-items: center;
+}
+
+nav a{
+     color: black
+     padding: 6px 16px;
+     border-radius: 300px;
+}
+
+nav a:hover {
+     background-color: black;
+    background-image: linear-gradient( to right, rgb(28, 3, 255), transparent, rgb(247, 255, 3) );
+     color: azure;
+     border-radius: 100px;
+     opacity: 40%;
+}
+
+.material-symbols-outlined {
+     margin: 0;
+     padding: 0;
+     margin-top: 23px;
+     margin-right: 150px;
+     width: 10px;
+     cursor: help ;
+}
+
+.typeO {
+     font-family:'Times New Roman', Times, serif;
+     margin: 0;
+     margin-top: 200px;
+     margin-left: 150px;
+}
+
+.drag {
+     font-size: 50px;
+}
+
+.war {
+color: red;
+}
+
+
+.paragraph {
+     width: 550px;
+     font-size: large;
+     color: black;
+}
