@@ -2,6 +2,7 @@ body {
      background-color: black;
     background-image: linear-gradient( to right, rgb(255, 242, 0), rgb(164, 176, 4), blue );
     overflow: hidden;
+    height: 100vh;
 }
 
 * {
@@ -11,7 +12,6 @@ body {
 }
 
 main {
-     width: 100%;
      background-position: center;
      display: flex;
      justify-content: space-around;
@@ -19,8 +19,12 @@ main {
 
 .title {
      color: darkblue;
-     font-size: 23px;
-     
+     font-size: 29px;
+}
+
+.logo {
+     width: 20px;
+     height: 20px;
 }
 
 header {
@@ -46,7 +50,7 @@ ul {
 ul a {
      text-decoration: none;
      color: white;
-     font-size: 20px;
+     font-size: 29px;
      background-color:rgb(56, 5, 239);
      border-radius: 30px;
      margin-top: 50px;
@@ -81,6 +85,7 @@ nav a:hover {
      margin: 200px 150px;
      display: flex;
      justify-content: space-between;
+     margin-left: 250px;
 }
 
 .drag {
@@ -94,7 +99,7 @@ color: rgb(0, 0, 0);
 
 .paragraph {
      width: 550px;
-     font-size: large;
+     font-size: 26px;
      color: black;
 }
 
@@ -102,8 +107,8 @@ color: rgb(0, 0, 0);
      background-color: transparent;
      border-radius: 40px;
      margin-top: 50px;
-     width: 140px;
-     height: 40px;
+     width: 290px;
+     height: 50px;
      background-color: blue;
      color: white;
      font-family: "Roboto", sans-serif;
@@ -161,19 +166,32 @@ background-color: rgb(166, 174, 171);
   background-color:#ddd;
 }
 .IBG {
-     margin-left: 200px;
-     width: 600px;
-     height:370px;
+     margin-right: 50px;
+     width: 800px;
+     height:470px;
 }
 
 
+footer
+{
+     position: absolute;
+     bottom: 0;
+}
+
 .footer{
-     width: 20px;
-     margin-left: 800px;
+     width: 26px;
+     margin-left: 1000px;
      margin: 0 0;
      padding: 0;
-     margin-left: 412px;
+     margin-left: 612px;
      position:relative;top:0;padding:4px;
           transition: all .2s ease-in-out}
 
       .footer:hover{top:-4px;box-shadow:0 4px 3px #99999900}
+
+
+
+      button a {
+          text-decoration: none;
+          color: #ffff;
+      }
